@@ -31,14 +31,17 @@
 **Exploratory Data Analysis**
 - Visualized class imbalance
 - Analyzed distribution of emotion labels and sample text structure
+  
 **Preprocessing**
 - Filtered to 5 emotion categories
 - Handled label encoding and text cleaning
 - Split into train/val/test
+  
 **Model Training**
 - Used pre-trained DistilBERT via Hugging Face
 - Fine-tuned for multi-class classification
 - Used cross-entropy loss and early stopping
+  
 **Model Interpretability**
 - Applied LIME for local explanation of predictions
 - Used attention weights to visualize contribution of key tokens
